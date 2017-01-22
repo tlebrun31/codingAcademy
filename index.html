@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <link type="text/css" rel="stylesheet" href="index.css" />
+    <link type="image/png" rel="icon" href="r2d2.png" />
+    <title>CodingPedia</title>
+  </head>
+
+  <body>
+    <header>
+     <h1>Welcome to CodingPedia!</h1>
+     <nav>
+      <ul>
+      	<li><p><a href="index.html">Index</a></p></li>
+      	<li><p><a href="php.html">PHP</a></p></li>
+      	<li><p><a href="sql.html">SQL</a></p></li>
+      </ul>
+     </nav>
+    </header>
+    <main>
+    <aside>
+        <p>
+          I am Tristan LEBRUN, currently a student at the coding-academy, and I love to stay in the pool all day long.
+        </p>
+    </aside>
+    <article class = "firstarticle">
+      <p><strong>CodingPedia</strong> is a collective encyclopedia project on the Internet aiming to be universal and multi-lingual which functions as a wiki.
+        CodingPedia has for goal to offer freely reusable objective and verifiable content that anyone can modify and improve.
+      </p>
+    </article>
+    <article class = "form">
+     <form>
+      <p>
+         <label for="Name">Your Name</label>
+         <input class = "input" type="text" name="Name" required placeholder="Ex : DUPONT" />
+         <br />
+      </p>
+      <p>
+         <label for="First name">Your First name</label>
+         <input class = "input" type="text" name="First name" required placeholder="Ex : Martin"/>
+         <br />
+      </p>
+      <p>
+         <label for="email">Your Email</label>
+         <input class = "input" type="email" name="email" required />
+         <br />
+      </p>
+      <p>
+         <label for="age">Your Age</label>
+         <input class = "input" type="number" name="age" min="3" max="99" />
+         <br />
+      </p>
+      <p>
+         <label for="phone">Your Phone</label>
+         <input class = "input" type="phonenum" name="phone" minlength="10" maxlength="10" placeholder="Ex : 0564159456" />
+         <br />
+      </p>
+      <p>
+         <label for="sex">What is your sex?</label>
+         <input type="radio" name="sex" />  Male
+         <input type="radio" name="sex" /> Female
+         <input type="radio" name="sex" /> I don't know
+         <br />
+      </p>
+      <p>
+      	<label for="Hair color">Your hair color</label>
+      	<input type="color" name="Hair color" />
+      	<br />
+      </p>
+      <p>
+      	<label for="date">Date</label>
+      	<input class = "input" type="date" name="date" required value="2016-10-28" placeholder="Ex : 2016-10-28" />
+      	<br />
+      </p>
+      <p>
+      	<label for="technology">Technology</label>
+      	<select name="technology">
+      	  <option value="PHP">PHP</option>
+      	  <option value="SQL">SQL</option>
+        </select>
+      	<br />
+      </p>
+      <p>
+      	<label for="question">Your questions?</label>
+      	<textarea class = "input" id="question" required></textarea>
+      	<br />
+      </p>
+      <p class= "submit">
+        <input type="submit" value="SUBMIT" />
+      </p>
+     </form>
+    </article>
+    </main>
+    <footer>
+      <address>Tristan LEBRUN - tristan.lebrun@coding-academy.fr</address>
+    </footer>
+  </body>
+</html>
